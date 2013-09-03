@@ -1,3 +1,6 @@
+#ifndef _LIST_H_
+#define _LIST_H_
+
 struct ListNode {
 	int m_nValue;
 	ListNode* m_pNext;
@@ -16,6 +19,8 @@ void DestroyList(ListNode* pHead);
 void AddToTail(ListNode** pHead, int value);
 
 void RemoveNode(ListNode** pHead, int value);
+
+#endif
 
 
 

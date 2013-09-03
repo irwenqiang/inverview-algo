@@ -1,3 +1,6 @@
+#ifndef _BINARYTREE_H_
+#define _BINARYTREE_H_
+
 struct BinaryTreeNode {
 	int m_nValue;
 	BinaryTreeNode* m_pLeft;
@@ -14,3 +17,5 @@ void PrintTreeNode(BinaryTreeNode* pNode);
 void PrintTree(BinaryTreeNode* pNode);
 
 void DestroyTree(BinaryTreeNode* pRoot);
+
+#endif
