@@ -27,7 +27,7 @@ void FindNumsAppearOnce(int data[], int length, int* num1, int* num2) {
 }
 
 
-unsigned int FindFirstBitIs1(int num) {
+inline unsigned int FindFirstBitIs1(int num) {
 	
 	int index = 0;
 
@@ -38,7 +38,7 @@ unsigned int FindFirstBitIs1(int num) {
 	return index;
 }
 
-bool IsBit1(int num, unsigned int indexBit) {
+inline bool IsBit1(int num, unsigned int indexBit) {
 	num = num >> indexBit;
 	return (num & 1);
 }
